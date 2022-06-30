@@ -1,0 +1,150 @@
+/* l spent 4 days on this css from searching and watching videos to make this sir  */
+
+body{
+    background-color: rgb(247, 250, 247) ;
+    background-image:url(gome2.png);
+
+}
+.navbar {
+    background-color: rgb(146, 203, 209);
+    color:rgb(72, 224, 11);
+   display: flex;
+   justify-content: space-around;
+   color: #07da62;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 30px;
+    background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style:unset;
+}
+
+
+.h1{
+    color: rgb(208, 220, 211);
+    margin-left: 40%;
+    margin-top: 2%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 12px 30px;
+    border-radius: 300px;
+    display: inline-block;
+    font-weight: 200;
+    transition: all .2s ease-in-out;
+    background-size: 100% 100%;
+    background: #1a24e5a5;
+    border: 2px solid #4f3c3f;
+}
+.p1{
+    color: rgb(11, 183, 63);
+    margin-left:1%;
+    width: 100%;
+    color: #53dc14;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.pic2{
+    margin-left: 5%;
+   width:30%;
+   border-radius:30%;
+   
+   
+}
+.MAC{
+   background-color:rgb(248, 248, 248);
+   border-radius: 10px;
+}
+.MAC:hover{
+    background-color: rgb(236, 15, 15);
+    transition:1s;
+}
+.h2{
+    display: flex;
+    justify-content: center;
+    background-color: #1b5ad8;
+}
+.p2{
+    padding-left: 1%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+.list{
+    padding-left: 1%;
+}
+.video{
+    width: 900px;
+    height: 250px;
+   padding-inline-start: 10%;
+   
+}
+
+
+
+.p3{
+    background-color: rgb(232, 232, 232);
+    padding-left: 1%;ß
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+ 
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  .logo{
+    max-height: 50px;
+    box-sizing:calc();
+  }
